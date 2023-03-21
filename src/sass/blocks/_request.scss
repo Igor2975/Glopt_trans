@@ -1,0 +1,70 @@
+.request{
+    height: 438px;
+    background: url('../img/form_bg.png') center center/cover no-repeat;
+    &__block{
+        padding-top: 62px;
+    }
+    &__form{
+        width: 896px;
+        height: 297px;
+        margin:0 auto;
+         background-color: grey;
+        
+    }
+    &__header{
+        text-align: center;
+        height: 68px;
+        background-color: #25333c;
+        padding-top: 20px;
+    }
+    &__title{
+        font-size: 19px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subtitle{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,270px);
+        grid-template-rows: 45px 73px;
+        justify-content: center;
+        margin-top: 17px;
+        
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    &__input{
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;
+        border-radius:20px;
+        padding-left: 20px;
+        border: 1px solid rgba(0,0,0,0.2);
+        input{
+            background:white
+        }
+        
+
+    }
+    &__textarea{
+        grid-column:1/4;
+        border-radius: 10px;
+        padding: 10px;
+        resize: none;
+    }
+    &__button{
+        display: block;
+        margin: 16px auto 0 auto;
+        
+        
+    }
+}
