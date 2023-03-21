@@ -1,0 +1,24 @@
+.restangle{
+    padding: 50px 0 58px 0;
+    &__subtitle{
+        width: 892px;
+        margin: 38px auto 0 auto;
+    }
+    &__wrapper{
+        margin-top: 38px;
+        display: grid;
+        grid-template-columns: repeat(3,360px);
+        justify-content: space-between;
+    }
+    &_header{
+        margin-top: 28px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $main-color;
+    }
+    &_subheader{
+        margin-top: 8px;
+    }
+}
