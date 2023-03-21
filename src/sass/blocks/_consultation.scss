@@ -1,0 +1,39 @@
+.consultation{
+    padding:55px 0 80px 0;
+    position: relative;
+   
+    &__form{
+        margin-top: 70px;
+        height: 166px;
+        border: 1px solid $main-color;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    &__input{
+        margin-top: 68px;
+        margin-right: 5px;
+        input{
+            width: 270px;
+            height: 45px;
+            border: 1px solid $main-color;
+            border-radius: 20px;
+            padding-left: 10px;
+        }
+    }
+    &__icon{
+        position: absolute;
+        width: 102px;
+        height: 102px;
+        background-color: white;
+        left: 706px;
+        top: 100px;
+        
+    }
+    &__button{
+        position: absolute;
+        top: 290px;
+        left: 682px;
+    }
+}
