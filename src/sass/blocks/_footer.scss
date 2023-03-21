@@ -1,0 +1,42 @@
+.footer{
+    height: 150px;
+    background-color: #25333c;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        display: flex;
+    }
+    &__contacts{
+        display: flex;
+        &_descr{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #ffffff;
+            padding-top: 42px;
+        }
+        &_block{
+            text-align: right;
+            margin-right: 20px;
+        }
+        &_button{
+            margin-top: 38px;
+        }
+    }
+    &__icon{
+        margin-top: 24px;
+        width: 68px;
+        height: 71px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 54px;
+        margin-left: 15px;
+    }
+    
+}
