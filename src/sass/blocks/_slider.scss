@@ -1,0 +1,53 @@
+.slider{
+    margin-top: 51px;
+    margin-bottom: 65px;
+    position: relative;
+    &__subtitle{
+        margin-top: 17px;
+    }
+    &__wrapper{
+        margin: 31px auto 0 auto;
+        width: 600px;
+    position: relative;
+        
+        
+    }
+    &__item{
+        position: relative;
+        margin: 0 auto;
+        
+        &__icon{
+            position: relative;
+            width: 114px;
+            height: 114px;
+            border-radius: 100%;
+            margin: 0 auto;
+            display: block;
+            // align-items: center;
+        }
+        &__descr{
+            position: relative;
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;   
+        }
+    }
+    .slick-prev , .slick-next {
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        left:200px;
+        border: none;
+        outline: none;
+        background-color: #fff;
+        img{
+            width: 14px;
+            height: 46px;
+        }
+    }
+    .slick-next{
+        position: absolute;
+        right:200px;
+        left:auto;
+    }
+ }
