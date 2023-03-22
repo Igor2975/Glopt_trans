@@ -283,13 +283,13 @@
         <div class="container">
             <h2 class="title consultation__title">Заказать бесплатную консультацию</h2>
             <img src="icons/forms.png" alt="icon" class="consultation__icon">
-            <form action="#" class="consultation__form">
+            <form action="#" id="consult-form"  class="consultation__form">
                 <div class="consultation__wrapper">
                     <div class="consultation__input">
                         <input required name="name" type="text" placeholder="Ваше имя">
                     </div>
                     <div class="consultation__input">
-                        <input required name="phone" type="number" placeholder="Ваш телефон">
+                        <input required name="phone" placeholder="Ваш телефон">
                     </div>
                     <div class="consultation__input">
                         <input required name="email" type="email" placeholder="Ваше email">
@@ -356,7 +356,7 @@
     <section class="request">
         <div class="container">
           <div class="request__block"> >
-            <form action="#" class="request__form">
+            <form action="#" id="request-form"  class="request__form">
                 <div class="request__header">
                     <div class="h4 request__title">Остались вопросы?</div>
                     <div class="request__subtitle">Напишите нам!</div>
@@ -437,6 +437,8 @@
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/up.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
