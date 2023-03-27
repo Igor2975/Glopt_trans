@@ -10,19 +10,16 @@
     }
     &__contacts{
         display: flex;
+        margin-top: 40px;
         &_descr{
             font-size: 14px;
             line-height: 24px;
             font-weight: 300;
             color: #ffffff;
-            padding-top: 42px;
         }
         &_block{
             text-align: right;
             margin-right: 20px;
-        }
-        &_button{
-            margin-top: 38px;
         }
     }
     &__icon{

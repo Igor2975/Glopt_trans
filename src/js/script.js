@@ -34,6 +34,6 @@ function validateForms (form) {
     });
   }
 
-  validateForms('#request-form');
+  // validateForms('#request-form');
 validateForms('#consult-form');
   

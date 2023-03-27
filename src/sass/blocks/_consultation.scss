@@ -9,11 +9,15 @@
     }
     &__wrapper{
         display: flex;
+        margin-top: 68px;
         justify-content: center;
     }
     &__input{
-        margin-top: 68px;
         margin-right: 5px;
+        label{
+            margin-bottom: 0;
+            font-size: 14px;
+        }
         input{
             width: 270px;
             height: 45px;

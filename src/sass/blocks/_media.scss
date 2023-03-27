@@ -1,0 +1,361 @@
+@media(max-width:1025px){
+    .container{
+        max-width: 900px;
+    }
+    .button__header{
+        display: none;
+    }
+    .promo{
+        &__logo{
+            width: 80px;
+            height: 80px;
+        }
+        &__contacts__phone{
+            font-size: 16px;
+        }
+        &__subheader{
+            margin-top: 15px;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+    }
+    .advantage{
+        &__wrapper{
+            grid-template-columns: repeat(2,440px);
+            column-gap: 20px;
+        }
+    }
+    .restangle{
+        &__wrapper{
+            grid-template-columns: repeat(3,280px);
+        }
+        &_img{
+                width: 280px;
+            
+        }
+    }
+    .delivery{
+        &__wrapper{
+            grid-template-columns: repeat(4,220px);
+        }
+    }
+    .consultation{
+        &__icon{
+            left: 460px;
+        }
+        &__button{
+            left: 420px;
+        }
+    }
+}
+
+
+@media(max-width:769px){
+    .container{
+        max-width: 540px;
+    }
+    .divider{
+        margin-top: 16px;
+        img{
+            width: 550px;
+        }
+    }
+    .promo{
+        padding-top: 40px;
+        padding-bottom: 60px;
+        &__menu{
+            display: none;
+        }
+        &__header{
+            font-size: 60px;
+        }
+        &__subheader{
+            font-size: 30px;
+        }
+        &__icon{
+            width: 54px;
+            height: 38px;
+        }
+        &__descr{
+            font-size: 10px;
+            line-height: 18px;
+        }
+    }
+    .advantage{
+        &__wrapper{
+            grid-template-columns: repeat(1,530px);
+        }
+    }
+    .restangle{
+        &__subtitle{
+            width: auto;
+        }
+        &__title{
+            font-size: 22px;
+        }
+        &__wrapper{
+            grid-template-columns: repeat(1,480px);
+            text-align: center;
+        }
+        &-item{
+            margin-bottom: 20px;
+        }
+        &_img{
+                width: 280px;
+                margin: 0 auto;
+            
+        }
+    }
+    .delivery{
+        &__wrapper{
+            grid-template-columns: repeat(2,260px);
+        }
+        &__item{
+            margin-bottom: 15px;
+        }
+    }
+    .consultation{
+        padding-top: 20px;
+        &__title{
+            font-size: 20px;
+        }
+        &__wrapper{
+            display: block;
+        }
+        &__form{
+            height: 380px;
+        }
+        &__input{
+            margin-bottom: 20px;
+            text-align: center;
+            input{
+                width: 420px;
+            }
+        }
+        &__icon{
+            left: 460px;
+            top: 60px;
+            left: 330px;
+        }
+        &__button{
+            left: 300px;
+            top: 470px;
+        }
+    }
+    .sheme{
+        &__items{
+            flex-wrap: wrap;
+            &_two{
+                column-gap: 0;
+                row-gap:30px;
+                justify-content: space-between;
+            }
+        }
+    } 
+    .request{
+        height: 600px;
+        &__form{
+            width: 500px;
+            height: 450px;
+        }
+        &__wrapper{
+            grid-template-columns: 500px;
+            grid-template-rows: 45px 45px 45px 73px;
+            row-gap: 20px;
+        }
+        &__textarea{
+            grid-column: 1;
+        }
+    } 
+    .footer{
+        height: 200px;
+        &__wrapper{
+            display: block;
+        }
+        &__contacts{
+            justify-content: center;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+@media(max-width:321px){
+    .container{
+        max-width: 300px;
+    }
+    .divider{
+        display: none;
+    }
+    .button__promo{
+        width: 180px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    .promo{
+        max-height: 100vh;
+        padding-bottom: 40px;
+        &__title{
+            font-size: 14px;
+        }
+        &__header{
+            font-size: 30px;
+        }
+        &__subheader{
+            font-size: 16px;
+        }
+
+        &__block{
+            display: none;
+        }
+    }
+    .advantage{
+        padding-top: 30px;
+        &__title{
+            font-size: 16px;
+        }
+        &__wrapper{
+            grid-template-columns: repeat(1,290px);
+        }
+    }
+    .pageup{
+        bottom: 20px;
+        right: 20px;
+    }
+    .restangle{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__wrapper{
+            grid-template-columns: repeat(1,280px);
+            text-align: center;
+        }
+        &-item{
+            margin-bottom: 20px;
+        }
+        &_img{
+                width: 200px;
+                margin: 0 auto;
+            
+        }
+        &__title{
+            font-size: 16px;
+        
+        }
+        &__subtitle{
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 15px;
+        }
+        &_subheader{
+            font-size: 12px;
+        }
+    }
+    .agent{
+        &_title{
+            font-size: 20px;
+        }
+        &_subtitle{
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .delivery{
+        padding-top: 30px;
+        &__title{
+            font-size: 19px;
+        }
+        &__subtitle{
+            font-size: 15px;
+            line-height: 18px;
+        }
+        &__wrapper{
+            grid-template-columns: repeat(1,280px);
+        }
+    }
+    .consultation{
+        padding-bottom: 50px;
+        &__icon{
+            left: 110px;
+            top: 80px;
+        }
+        &__button{
+            left: 90px;
+            top: 480px;
+        }
+        &__input{
+            input{
+                width: 270px;
+            }
+        }
+    }
+    .request{
+        &__wrapper{
+            grid-template-columns: 240px;
+        }
+        &__form{
+            width: 270px;
+        }
+    }
+    .slider{
+        &__wrapper{
+            width: 300px;
+        }
+        &__title{
+            font-size: 19px;
+        }
+        &__subtitle{
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__item{
+            &__icon{
+                margin-left: 90px;
+            }
+            &__descr{
+                margin: 0;
+                width: 290px;
+             }
+        } 
+        .slick-prev{
+            top: 9%;
+            left: 52px;
+        } 
+        .slick-next{
+            top: 9%;
+            right: 60px;
+
+        }   
+    }  
+    .map{
+        &__info{
+            left: 0;
+        }
+    }
+    .footer{
+        &__icon{
+            width: 40px;
+            height: 40px;
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 30px;
+        }
+        &__contacts{
+            margin-top: 25px;
+            &_button{
+                width: 120px;
+                height: 40px;
+                font-size: 10px;
+                line-height: 15px;
+            }
+        }
+    }
+
+
+   
+}
+
+
